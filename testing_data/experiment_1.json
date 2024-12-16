@@ -1,0 +1,135 @@
+[
+    {
+        "question": "In which document can I find the procedure on what to do in the event of an emergency involving low frequency?",
+        "ground_truth": "ISO New England Operating Procedure No. 7 Action in an Emergency (OP-7)",
+        "section": "ISO Operating Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/isone/op7/op7_rto_final.pdf"
+
+    },
+    {
+        "question": "What is the procedure for a low frequency emergency where the cause of the declining frequency is due to a deficiency in the New England RCA?",
+        "ground_truth": "Confirm existing Interchange Schedules with adjacent NPCC BAAs; Request assistance from external RCAs/BAAs up to the emergency transfer limit of the interconnection Tie Lines.",
+        "section": "ISO Operating Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/isone/op7/op7_rto_final.pdf"
+    },
+    {
+        "question": "What should be done in the case that the frequency declines to 59.90 Hz in a low frequency emergency?",
+        "ground_truth": "ISO shall: disconnect any pumped storage Dispatchable Asset Related Demand(s) (DARDs) operating in the pumping mode. They will be automatically disconnected at 59.65 Hz; Dispatch non-synchronized Fast Start Generators and Fast Start Demand Response Resources (DRRs) as required.",
+        "section": "ISO Operating Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/isone/op7/op7_rto_final.pdf"
+    },
+    {
+        "question": "(According to Operating Procedure 12) What are LCC system operators responsible for monitoring in regard to voltage control?",
+        "ground_truth": "Ground Truth: Each LCC is responsible for monitoring the following: Generator, STATCOM, synchronous condenser, and static VAR compensator voltage schedules, limits and AVR status; Generator, STATCOM, synchronous condenser, and static VAR compensator MVAr loadings, capabilities and reserves; Transformer voltage schedules; MVAr flows between the AC system and HVDC facilities; Other predefined indicators of voltage/reactive security (e.g., a particular circuit flow, the status of specific Generators, area load level, etc.).",
+        "section": "ISO Operating Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/isone/op12/op12_rto_final.pdf"
+    },
+    {
+        "question": "(According to Operating Procedure 12) What should an LLC do if they cannot correct a voltage problem using the available actions?",
+        "ground_truth": "When an LCC is unable to correct a voltage/reactive problem using all available actions, the LCC shall notify ISO and request assistance.",
+        "section": "ISO Operating Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/isone/op12/op12_rto_final.pdf"
+    },
+    {
+        "question": "(According to Operating Procedure 12) When a generator’s high-side bus voltage drifts outside its normal voltage schedule tolerance band, under what conditions should the generating station operator notify the LCC?",
+        "ground_truth": "The Generator has been operating outside of its prescribed voltage schedule tolerance band for a continuous period of 15 minutes, or the generating station operator determines that the Generator will be unable to return to operating within its prescribed voltage schedule tolerance band within 15 minutes.",
+        "section": "ISO Operating Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/isone/op12/op12_rto_final.pdf"
+    },
+    {
+        "question":"What are the primary responsibilities of the Security Operator in the procedure to perform a voltage reduction test that is attainable within 10 minutes?",
+        "ground_truth": "1.  Notify the Nuclear Generating units DEs of the start and end time for the System Wide Voltage Reduction Test.  2.  Contact the LCC Operators and verify they are ready to perform the System Wide Voltage Reduction Test.  3.  When directed by the Operations Shift Supervisor, issue the 5% voltage reduction attainable within 10 minutes test operating instruction to the participating LCC Operators using the \"ALL LCCS\" Function.  1.  Standard(s) for completion: Three part communication is used.  2.  Instructions: Perform an LCC Roll Call (CONVEX, Maine, NGrid, NH, NSTAR, RIE and VELCO). Issue the following operating instruction: \u201cISO New England to All LCCs: Implement a voltage reduction of 5% of normal voltage that is attainable within 10 minutes.\u201d  4.  Log the start of the System Wide Voltage Reduction Test that is attainable within 10 minutes.  1.  Instructions: Use log entry: > TEST AND AUDITS > VOLTAGE REDUCTION TEST > Less than 10 min start  5.  When directed by the Operations Shift Supervisor, issue the termination operating instruction to each participating LCC Operators using the \"ALL LCCS\" Function.  1.  Standard(s) for completion:\u00a0 Three part communication is used.  2.  Perform an LCC Roll Call (CONVEX, Maine, NGrid, NH, NSTAR, RIE and VELCO).\u00a0 Issue the following operating instruction: \u201cISO New England to all LCCs: Terminate the 5% voltage reduction and return to normal operating voltage.\u201d  6.  Log the end of the System Wide Voltage Reduction Test that is attainable within 10 minutes.  1.  Instructions: Use log entry: > TEST AND AUDITS > VOLTAGE REDUCTION TEST > Less than 10 min end",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/cr_ops/crop_44001.pdf"
+    },
+    {
+        "question":"What is the notification protocol for a System Wide Voltage Reduction Test that requires more than 10 minutes to implement?",
+        "ground_truth": "1.  The Operations Shift Supervisor must instruct Participant Support to post the System Wide Voltage Reduction Test notification on the external website.  2.  The email notification must be sent by 1500 the day prior to the test.  3.  The notification must include a specific title format and content details, including start and end times.  4.  The information must also be emailed to AskISO@iso-ne.com for a service ticket creation.",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/cr_ops/crop_44001.pdf"
+    },
+    {
+        "question":"What actions must the Loader Operator perform before initiating the 5% voltage reduction test?",
+        "ground_truth":"1.  Remove non-ESD resources from Regulation by contacting the DE and updating the UCM.  2.  Remove all CSF ATRR resources from Regulation using the \"Remove ESD ATRR Off Reg\" button.  3.  Remove ATRR resources from Regulation by setting the \"OPER Off\" flag.  4.  Log the removal of all resources using the specified log entry.",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/cr_ops/crop_44001.pdf"
+    },
+    {
+        "question":"How does the Security Operator initiate the 5% voltage reduction test that is attainable within 10 minutes?",
+        "ground_truth":"1.  The Security Operator must perform an LCC Roll Call (CONVEX, Maine, NGrid, NH, NSTAR, RIE, and VELCO).  2.  Use three-part communication to issue the operating instruction: \u201cISO New England to All LCCs: Implement a voltage reduction of 5% of normal voltage that is attainable within 10 minutes.\u201d  3.  Log the start of the System Wide Voltage Reduction Test using the entry: > TEST AND AUDITS > VOLTAGE REDUCTION TEST > Less than 10 min start.",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/cr_ops/crop_44001.pdf"
+    },
+    {
+        "question":"What are the final steps for the Security Operator after terminating the 5% voltage reduction test?",
+        "ground_truth":"1.  Issue the termination operating instruction to the participating LCC Operators using three-part communication.  2.  Perform an LCC Roll Call and instruct: \u201cISO New England to all LCCs: Terminate the 5% voltage reduction and return to normal operating voltage.\u201d  3.  Log the end of the test using the entry: > TEST AND AUDITS > VOLTAGE REDUCTION TEST > Less than 10 min end.  4.  Notify the Nuclear Generating units DEs of the test completion.",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/cr_ops/crop_44001.pdf"
+    },
+    {
+        "question":"Who is responsible for performing the procedure that evaluates e-Tags associated with Real-Time External Transactions?",
+        "ground_truth":"Tariff, Scheduling and OASIS (Open-Access Same-Time Information System) (TSO) Administrator",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/rt_mkts/sop_rtmkts_0020_0020.pdf"
+    },
+    {
+        "question":"What are the controls for the procedure to evaluate e-Tags?",
+        "ground_truth":"1. The e-Tag data is submitted and received by the defined ISO deadline in order to be accepted for system use. \n 2. The e-Tag for each Real-Time External Transaction is evaluated prior to the timeline defined in NERC Reliability Standard INT-006.",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/rt_mkts/sop_rtmkts_0020_0020.pdf"
+    },
+    {
+        "question":"What additional NYIS validations are performed on an e-Tag in the evaluate e-Tag procedure?",
+        "ground_truth": "1.  If the tag is between ISO-NE and NYIS on any interface, NYIS must be a TSP on the e-Tag.  2.  The validation of the ISO-NE POR/POD and NYIS POR/POD are defined below:  1.  Import to ISO-NE  1.  If ISO-NE POR = NY.NNC, then NYIS POD must = NY-1385  2.  If ISO-NE POR = LI\\_CT\\_CSC , then NYIS POD must = NY-CSC  3.  If ISO-NE POR = NY.NE.BORDER, NYIS POD must = NYIS  2.  Export out of ISO-NE  1.  If ISO-NE POD = NY.NNC, then NYIS POR must = NY-1385  2.  If ISO-NE POD = LI\\_CT\\_CSC , then NYIS POR must = NY-CSC  3.  If ISO-NE POD = NY.NE.BORDER, NYIS POR must = NYIS",
+        "section":"System Operating Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/rules_proceds/operating/sysop/rt_mkts/sop_rtmkts_0020_0020.pdf"
+    },
+    {
+        "question":"I’m a distribution provider. What data do I have to submit?",
+        "ground_truth":"Here\u2019s the data each DER facility must report:  1.  Each Distribution Provider shall submit the best available data for each DER facility connected to its system.  2.  This data shall be submitted in the format given in Appendix A to this Planning Procedure.  3.  Data shall be submitted for existing DER as any proposed facilities in the Distribution Provider\u2019s interconnection queue or equivalent list of interconnection requests.  4.  When a DER has been disconnected from the distribution system or retired, the Distribution Provider shall include the facility in the following data submission, with a status of \u201cRetired.\u201d  5.  Inclusion of retired DERs in subsequent submissions is at your discretion.",
+        "section":"Planning Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/100014/pp12_rev0.pdf"
+    },
+    {
+        "question":"Who is responsible for the data outlining the location of each feeder in my submission as a distribution provider?",
+        "ground_truth":"Transmission Owners",
+        "section":"Planning Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/100014/pp12_rev0.pdf"
+    },
+    {
+        "question":"When is the December data collection deadline for submitting DER data? ",
+        "ground_truth":"December 31",
+        "section":"Planning Procedures",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/100014/pp12_rev0.pdf"
+    },
+    {
+        "question":"What is CARL data?",
+        "ground_truth":"CARL Data is Control Area reliability data submitted to the ISO to permit an assessment of the ability of an external Control Area to provide energy to the New England Control Area in support of capacity offered to the New England Control Area by that external Control Area. ",
+        "section":"Transmission, Markets, and Service Tariffs",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/regulatory/tariff/sect_1/sect_i.pdf"
+    },
+    {
+        "question":"Under the ISO tariff, how are disputes resolved?",
+        "ground_truth":"Any dispute arising under this Tariff shall be the subject of good-faith negotiations among the ISO, the Transmission Owner, the Schedule 20A Service Provider, and a Customer, as applicable, unless otherwise stated in this Tariff, except that disputes concerning Schedules 18, 20 and 21 shall be resolved directly between the Customer and the MTO, OTO, Schedule 20A Service Provider or PTO, as applicable, using the procedures specified below. Each affected party shall designate one or more representatives with the authority to negotiate the matter in dispute to participate in such negotiations. The affected parties shall engage in such good-faith negotiations for a period of not less than sixty (60) calendar days, unless: (a) a party identifies exigent circumstances reasonably requiring expedited resolution of the dispute by the Commission or a court or agency with jurisdiction over the dispute; or (b) the provisions of this Tariff otherwise provide a party the right to submit a dispute directly to the Commission for resolution. Any other dispute that is not resolved through good-faith negotiations may be submitted by any party for resolution to the Commission, to a court or to an agency with jurisdiction over the dispute upon the conclusion of such negotiations. Any party may request that any dispute submitted to the Commission for resolution be subject to the Commission’s settlement procedures. Notwithstanding the foregoing, any dispute arising under this Tariff may be submitted to arbitration or any other form of alternative dispute resolution upon the agreement of all affected parties to participate in such an alternative dispute resolution process.",
+        "section":"Transmission, Markets, and Service Tariffs",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/regulatory/tariff/sect_1/sect_i.pdf"
+    },
+    {
+        "question":"What is included in the ISO Tariff?",
+        "ground_truth": "This Tariff includes the following components:  1.  these general terms and conditions (Section I) and the ISO New England Financial Assurance Policy (Exhibit IA) and the ISO New England Billing Policy (Exhibit ID)  2.  the ISO Open Access Transmission Tariff (the \u201cOATT\u201d) (Section II)  3.  the ISO Market Rule 1 (Section III)  4.  provisions for the recovery of the ISO\u2019s administrative expenses and the ISO's capital funding arrangements (Section IV)  5.  and (e) other attachments, including a pro forma Market Participant Service Agreement (Attachment A)",
+        "section":"Transmission, Markets, and Service Tariffs",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/regulatory/tariff/sect_1/sect_i.pdf"
+    },
+    {
+        "question":"What is the deadline to submit corrected data for adjustments to monthly regional network load submissions?",
+        "ground_truth":"20th day of the fourth (4th) month after the Regional Network Load Month",
+        "section":"Transmission, Markets, and Service Tariffs",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/2017/09/sect_i_ex_id.pdf"
+    },
+    {
+        "question":"Under ISO’s confidentiality agreement, can someone who is requesting a billing adjustment show confidential information to others?",
+        "ground_truth":"Those who sign ISO’s confidentiality agreement may not in any manner disclose the Confidential Information to any person, and he/she may not use the confidential information for the benefit of any person except in the proceeding for their billing adjustment and in accordance with the terms of the confidentiality agreement, Section 6 of the ISO New England Billing Policy and the ISO New England Information Policy.",
+        "section":"Transmission, Markets, and Service Tariffs",
+        "pdf_url":"https://www.iso-ne.com/static-assets/documents/2017/09/sect_i_ex_id.pdf"
+    }
+]

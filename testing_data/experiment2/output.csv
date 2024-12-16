@@ -1,0 +1,78 @@
+user_input,retrieved_contexts,response,reference,llm_context_precision_with_reference,context_recall,context_entity_recall,noise_sensitivity_relevant,answer_relevancy,faithfulness,factual_correctness,semantic_similarity,rouge_score,conciseness,error_handling,originality,section,pdf_url
+"According to the procedure to perform a blackstart capability test, what should the Generator Operator do if the request is denied?","['2) A copy of the local generator test procedure used to perform the\n\nblackstart test.\n\nA Blackstart Owner may submit documented demonstration of actual\nblackstart performance that meets the requirements for a successful Test as\ndocumented in OP-11, App E. The Blackstart Owner shall comply with the\naudit testing verbal communication and audit documentation requirements for\nconsideration of Test compliance.\n\nISO or the SRWG have the right to be present during the performance of a\nTest and to inspect aspects of the DBR, including procedures and records,\nthat pertain to the operation and maintenance of Blackstart Service.\n\nB. Requirements for Performance During a System Restoration', '**3. Blackstart Resource Program Administration and Requirements**\n\nA. Testing and Reporting Requirements\n\nEach DBR that provides Blackstart Service shall have completed a\nsuccessful Test, and meet testing and reporting requirements, within the\npast 12 months.\n\nTo perform a successful Test, a Blackstart Owner shall:\n\n1) Coordinate with the applicable TO to ensure that any required\n\ntransmission outage requests for equipment necessary to isolate the\nDBR or equipment necessary to be energized during the testing are\nsubmitted through the transmission outage coordination process.\n\n2) Submit an outage application in the ISO’s outage scheduling software.\n\nRequests shall come through the generator outage request process.\n\n\n-----\n\nIn the event that the Test would not impact generator startup or\nnotification times, an informational application shall still be submitted\nthrough the ISO’s outage scheduling software.']","If a Generator Operator's request for a blackstart capability test is denied, the following steps should be taken:
+
+1. **Document the Denial**: Ensure that the denial is documented for record-keeping and future reference.
+
+2. **Communicate with Relevant Parties**: Reach out to the appropriate Transmission Owner (TO) or ISO representatives to understand the reasons for the denial.
+
+3. **Review Requirements**: Check the specific requirements and conditions that may have led to the denial. This may include compliance with testing and reporting requirements.
+
+4. **Submit an Informational Application**: If the denial does not impact generator startup or notification times, an informational application should still be submitted through the ISO’s outage scheduling software.
+
+5. **Consider Alternative Actions**: Depending on the feedback received, the Generator Operator may need to adjust their approach or resubmit the request after addressing any concerns.
+
+6. **Follow Up**: Maintain communication with the TO or ISO to ensure that any issues are resolved and to facilitate future testing opportunities.
+
+For more detailed procedures, refer to the official documentation or guidelines provided by ISO New England.
+
+### Sources
+- [ISO New England Documentation](https://www.iso-ne.com)","Notify the DE the blackstart capability test has been denied and the reason. i. Update the outage application: For an application that has a status of “Approved” but NOT implemented in the Outage Scheduling software, toggle the “Cancel” status button. Enter appropriate comments in the Outage Scheduling Software. ii. Log the outage denial: Use log entry: > OUTAGES > Denied Enter the following:  CROW ID, Description of the Denied Outage, Reason for denial.",0.0,1.0,0.0999999999,0.0,0.9686120452041515,0.07142857142857142,0.1,0.8745571026223689,0.16216216216216214,0,0,1,Planning Procedures,https://www.iso-ne.com/static-assets/documents/2015/06/crop-45003.pdf
+What is the procedure background for the procedure to perform a blackstart capability test?,"['2) A copy of the local generator test procedure used to perform the\n\nblackstart test.\n\nA Blackstart Owner may submit documented demonstration of actual\nblackstart performance that meets the requirements for a successful Test as\ndocumented in OP-11, App E. The Blackstart Owner shall comply with the\naudit testing verbal communication and audit documentation requirements for\nconsideration of Test compliance.\n\nISO or the SRWG have the right to be present during the performance of a\nTest and to inspect aspects of the DBR, including procedures and records,\nthat pertain to the operation and maintenance of Blackstart Service.\n\nB. Requirements for Performance During a System Restoration', '- Frequency control capability,\n\n    - Voltage control capability,\n\n    - Interconnection voltage,\n\n    - Proximity to nuclear power plants,\n\n    - Proximity to inter-Local Control Center (LCC) interconnection points,\n\n    - Proximity to inter-Reliability Coordinator Area (RCA) interconnection\npoints,\n\n\n-----\n\n  - Time between system shutdown and resource availability for electrical\nloading,\n\n  - Geographic location.\n\nBased upon this evaluation, a resource may become a DBR and be included in\nthe Plan.\n\nThis OP contains the requirements and procedures for the application,\nassessment, selection, and testing of DBRs in accordance with Schedule 16. A\nBlackstart Owner may obtain Blackstart Capability Test (Test) data for each DBR\nin its portfolio, including the date of the last successful Test, from the monthly\nupdates on the ISO Market Information System (MIS).\n\n\n-----\n\n**II.** **BLACKSTART RESOURCE ADMINISTRATION**\n\n**1. Eligibility Requirements for Providing Blackstart Service**']","## Background on Blackstart Capability Test Procedure
+
+The Blackstart Capability Test is a critical procedure for ensuring that designated resources can effectively restore power to the grid after a blackout. Here’s an overview of the procedure background:
+
+### Key Components of the Procedure
+
+1. **Eligibility Requirements**:
+   - Each Designated Blackstart Resource (DBR) must complete a successful test and meet specific testing and reporting requirements within the past 12 months.
+
+2. **Coordination with Transmission Owners**:
+   - Blackstart Owners must coordinate with the applicable Transmission Owner (TO) to submit any necessary transmission outage requests. This is essential for isolating the DBR or energizing equipment during testing.
+
+3. **Outage Application Submission**:
+   - An outage application must be submitted through the ISO’s outage scheduling software. This includes requests for generator outages.
+
+4. **Testing Requirements**:
+   - The test must demonstrate the resource's ability to control frequency and voltage, manage interconnection voltage, and consider geographic location and proximity to critical infrastructure (e.g., nuclear plants).
+
+5. **Documentation and Compliance**:
+   - Blackstart Owners must provide documented evidence of their blackstart performance, complying with audit testing and documentation requirements.
+
+6. **ISO Oversight**:
+   - ISO or the System Restoration Working Group (SRWG) has the right to be present during the test and inspect relevant procedures and records.
+
+### Performance Evaluation Criteria
+
+The evaluation for a successful test includes:
+- Frequency control capability
+- Voltage control capability
+- Time between system shutdown and resource availability for electrical loading
+- Geographic location considerations
+
+### Additional Information
+
+- Blackstart Owners can obtain data regarding their DBR's test history from the ISO Market Information System (MIS).
+- The procedure is governed by the requirements outlined in Schedule 16 of the ISO New England Open Access Transmission Tariff.
+
+For more detailed information, you can refer to the official documentation from ISO New England.
+
+### Sources
+- [ISO New England](https://www.iso-ne.com)",Blackstart capability tests are submitted and scheduled using the process defined in SOP-RTMKTS.0180.0080 Process Designated Blackstart Resource Testing. Each Designated Blackstart Resource (DBR) performs an actual start of the DBR without dependency on the interconnected system or other DBR support as described in OP-11 at least once every 12 months.,0.99999999995,0.0,0.3999999992,0.0,0.9339230833533477,0.25,0.11,0.9112924226695431,0.10285714285714287,0,0,0,Planning Procedures,https://www.iso-ne.com/static-assets/documents/2015/06/crop-45003.pdf
+What is the first step in the procedure to perform a blackstart capability test and whose primary responsibility is it?,"['2) A copy of the local generator test procedure used to perform the\n\nblackstart test.\n\nA Blackstart Owner may submit documented demonstration of actual\nblackstart performance that meets the requirements for a successful Test as\ndocumented in OP-11, App E. The Blackstart Owner shall comply with the\naudit testing verbal communication and audit documentation requirements for\nconsideration of Test compliance.\n\nISO or the SRWG have the right to be present during the performance of a\nTest and to inspect aspects of the DBR, including procedures and records,\nthat pertain to the operation and maintenance of Blackstart Service.\n\nB. Requirements for Performance During a System Restoration', 'Following any required conversion or the determination by ISO and the SRWG that\nthe resource would provide benefit to the Plan if no conversion is required, the\nproposed Blackstart Owner shall perform a successful Blackstart Capability Test on\nthe resource. ISO, upon notice of a successful Blackstart Capability Test for the\nresource, shall coordinate with the Blackstart Owner to complete and sign Section IV\nof this OP-11G. The Designated Blackstart Resource commitment for the resource\nshall begin on the date indicated in the completed Section IV of this OP-11G.\n\nd C ll d\n\n\n-----\n\n## II. ISO and Blackstart Owner Commitment Prior to Blackstart\n Capability Conversion Studies']","## Blackstart Capability Test Procedure
+
+### First Step
+The first step in the procedure to perform a blackstart capability test is to **coordinate with the applicable Transmission Owner (TO)**. This coordination ensures that any required transmission outage requests for equipment necessary to isolate the Designated Blackstart Resource (DBR) or equipment that needs to be energized during the testing are submitted through the transmission outage coordination process.
+
+### Primary Responsibility
+The primary responsibility for performing the blackstart capability test lies with the **Blackstart Owner**. They are required to ensure compliance with the testing and reporting requirements, including submitting the necessary outage applications.
+
+### Summary of Responsibilities
+- **Blackstart Owner**: 
+  - Coordinate with the TO.
+  - Submit outage applications.
+  - Ensure compliance with testing requirements.
+
+For more detailed information, you can refer to the ISO New England documentation on blackstart resources and testing procedures.
+
+### Sources
+- [ISO New England Blackstart Resource Administration](https://www.iso-ne.com)",Notify the Security Operator and Senior System Operator of the blackstart capability test request. Primary responsibility for this step goes to the Generation Operator. ,0.99999999995,0.0,0.0,0.0,0.9562188142854472,0.25,0.0,0.8857638910959833,0.12941176470588234,0,0,1,Planning Procedures,https://www.iso-ne.com/static-assets/documents/2015/06/crop-45003.pdf

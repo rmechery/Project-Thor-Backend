@@ -1,0 +1,20 @@
+[
+    {
+        "question": "According to the procedure to perform a blackstart capability test, what should the Generator Operator do if the request is denied?",
+        "ground_truth": "Notify the DE the blackstart capability test has been denied and the reason. i. Update the outage application: For an application that has a status of “Approved” but NOT implemented in the Outage Scheduling software, toggle the “Cancel” status button. Enter appropriate comments in the Outage Scheduling Software. ii. Log the outage denial: Use log entry: > OUTAGES > Denied Enter the following:  CROW ID, Description of the Denied Outage, Reason for denial.",
+        "section": "Planning Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/2015/06/crop-45003.pdf"
+    },
+    {
+        "question": "What is the procedure background for the procedure to perform a blackstart capability test?",
+        "ground_truth": "Blackstart capability tests are submitted and scheduled using the process defined in SOP-RTMKTS.0180.0080 Process Designated Blackstart Resource Testing. Each Designated Blackstart Resource (DBR) performs an actual start of the DBR without dependency on the interconnected system or other DBR support as described in OP-11 at least once every 12 months.",
+        "section": "Planning Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/2015/06/crop-45003.pdf"
+    },
+    {
+        "question": "What is the first step in the procedure to perform a blackstart capability test and whose primary responsibility is it?",
+        "ground_truth": "Notify the Security Operator and Senior System Operator of the blackstart capability test request. Primary responsibility for this step goes to the Generation Operator. ",
+        "section": "Planning Procedures",
+        "pdf_url": "https://www.iso-ne.com/static-assets/documents/2015/06/crop-45003.pdf"
+    }
+]
